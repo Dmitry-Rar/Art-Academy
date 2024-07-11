@@ -1,1 +1,14 @@
+@font-face {
+  font-family: "Forum-Regular";
+  src: url(../assets/fonts/Forum-Regular.ttf);
+}
 
+@font-face {
+  font-family: "WindSong-Regular";
+  src: url(../assets/fonts/WindSong-Regular.ttf);
+}
+
+@font-face {
+  font-family: "WindSong-Medium";
+  src: url(../assets/fonts/WindSong-Medium.ttf);
+}

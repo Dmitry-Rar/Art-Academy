@@ -1,3 +1,48 @@
-.header{
-    background-color: aquamarine;
+.header {
+  background-color: #343633;
+  display: flex;
+  margin: 0%;
+  flex-flow: row nowrap;
+  padding-left: 60px;
+  padding-right: 60px;
+  height: 70px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header ul {
+  margin: 0%;
+  padding: 0%;
+  list-style-type: none;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  font-family: "Forum-Regular";
+  align-items: center;
+  width: 710px;
+  height: 70px;
+}
+
+.header img {
+  width: 65px;
+  height: 45px;
+}
+
+.header ul li {
+  text-align: center;
+  height: 32px;
+  width: 90px;
+}
+
+.header ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 400;
+  font-size: 30px;
+  letter-spacing: 0.05em;
+  transition: ease-in-out 0.2s;
+}
+
+.header ul li a:hover {
+  font-size: 32px;
 }

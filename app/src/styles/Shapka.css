@@ -1,0 +1,79 @@
+.shapka {
+  margin: 0 200px 0 200px;
+  height: 800px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  border-bottom: 2px solid black;
+}
+
+#angel {
+  width: 500px;
+  height: 470px;
+  background-color: #999a98;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#angel img {
+  height: 585px;
+  width: 410px;
+}
+
+.shapka-left {
+  width: 740px;
+  height: 530px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+}
+
+.shapka-left img {
+  width: 640px;
+  height: 270px;
+}
+
+.shapka-left p {
+  display: flex;
+  flex-flow: row wrap;
+  font-family: "Forum-Regular";
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 88%;
+  letter-spacing: 0.03em;
+  color: #000;
+  padding-right: 200px;
+  font-style: italic;
+}
+
+#Pablo {
+  margin: 10px 0 0 0;
+  color: #760807;
+  font-style: normal;
+}
+
+.shapka-left a {
+  font-family: "Forum-Regular";
+  width: 310px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #760807;
+  font-weight: 400;
+  font-size: 30px;
+  letter-spacing: 0.05em;
+  color: #fff;
+  text-decoration: none;
+  margin: 2px 2px;
+  transition: ease-in-out 0.2s;
+}
+
+.shapka-left a:hover {
+  width: 314px;
+  height: 74px;
+  margin: 0%;
+}
