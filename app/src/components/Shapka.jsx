@@ -2,7 +2,7 @@ import "../styles/Shapka.css";
 import shapka_logo from "../assets/img/shapka_logo.png";
 import angel from "../assets/img/angel.png";
 
-export default function Header() {
+export default function Shapka() {
   return (
     <section className="shapka">
       <div className="shapka-left">
