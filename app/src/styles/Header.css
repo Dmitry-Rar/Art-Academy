@@ -8,6 +8,8 @@
   height: 70px;
   align-items: center;
   justify-content: space-between;
+  position: fixed;
+  width: 100%;
 }
 
 .header ul {
@@ -23,7 +25,7 @@
   height: 70px;
 }
 
-.header img {
+.header a img {
   width: 65px;
   height: 45px;
 }

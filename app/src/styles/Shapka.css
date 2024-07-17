@@ -51,7 +51,7 @@
 
 #Pablo {
   margin: 10px 0 0 0;
-  color: #760807;
+  color: var(--color-accent);
   font-style: normal;
 }
 
@@ -62,7 +62,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #760807;
+  background-color: var(--color-accent);
   font-weight: 400;
   font-size: 30px;
   letter-spacing: 0.05em;

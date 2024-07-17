@@ -1,9 +1,9 @@
-import "../styles/About_Academy.css";
+import "../styles/AboutAcademy.css";
 
-export default function About_Academy() {
+export default function AboutAcademy() {
   return (
-    <section className="About_Academy">
-      <p id="about_academy">Наша академия</p>
+    <section className="about-academy">
+      <p id="about-academy">Наша академия</p>
       <p>Мы предлагаем не самое большое количество образовательных курсов, но тщательно прорабатываем каждое занятие со всеми студентами.</p>
     </section>
   );

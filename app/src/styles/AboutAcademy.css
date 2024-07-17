@@ -1,4 +1,4 @@
-.About_Academy {
+.about-academy {
   margin: 0 150px 0 150px;
   display: flex;
   justify-content: center;
@@ -9,7 +9,7 @@
   align-items: center;
 }
 
-#about_academy {
+#about-academy {
   font-family: "Forum-Regular";
   font-weight: 400;
   font-size: 90px;
@@ -19,7 +19,7 @@
   margin: 0%;
 }
 
-.About_Academy p {
+.about-academy p {
   font-family: "Forum-Regular";
   font-weight: 400;
   font-size: 50px;
