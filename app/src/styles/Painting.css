@@ -1,0 +1,86 @@
+.painting {
+    background-color: white;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 1000px;
+    margin: 0 150px 0 150px;
+}
+
+.painting p {
+    font-family: "WindSong-Medium";
+    font-weight: 500;
+    font-size: 70px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    color: #760807;
+    height: 117px;
+    margin: 0%;
+    display: flex;
+}
+
+.painting_information p {
+    font-family: "Forum-Regular";
+    font-weight: 400;
+    font-size: 50px;
+    letter-spacing: 0.05em;
+    color: #343633;
+    width: 756px;
+    height: 363px;
+    text-align: start;
+}
+
+.painting_information {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.painting_information div {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.painting_information img {
+    width: 780px;
+    height: 500px;
+}
+
+.painting h2 {
+    font-family: "Forum-Regular";
+    font-weight: 400;
+    font-size: 80px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    color: #000;
+    margin: 20px 0 20px 0;
+    display: flex;
+}
+
+.painting_information div a {
+    font-family: "Forum-Regular";
+    font-weight: 400;
+    font-size: 42px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    color: #fff;
+    width: 330px;
+    height: 80px;
+    background-color: #760807;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin: 2px 2px 2px 2px;
+    transition: ease-in-out 0.2s;
+}
+
+.painting_information div a:hover {
+    margin: 0;
+    width: 334px;
+    height: 84px;
+}
